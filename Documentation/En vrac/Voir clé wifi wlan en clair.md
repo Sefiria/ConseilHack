@@ -12,3 +12,12 @@ netsh wlan show profiles Cible key=clear
 ```
 5. Le mot de passe du wifi-cible est à la ligne "Contenu de la clé"
 6. Vous pouvez vous connecter au réseau wifi ciblé avec le mot de passe récupéré
+
+# Erreur(s) connue(s) :
+
+Si le message suivant apparaît :
+```
+Le service Configuration automatique des réseaux locaux sans fil (wlansvc)
+n'est pas en cours d'exécution.
+```
+Cela signifie que votre PC n'est pas doté d'une carte WiFi (vous ne pouvez pas récupérer / vous connecter à un réseau WiFi).
