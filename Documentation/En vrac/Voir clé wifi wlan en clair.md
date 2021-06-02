@@ -21,3 +21,4 @@ Le service Configuration automatique des réseaux locaux sans fil (wlansvc)
 n'est pas en cours d'exécution.
 ```
 Cela signifie que votre PC n'est pas doté d'une carte WiFi (vous ne pouvez pas récupérer / vous connecter à un réseau WiFi).
+Ou bien, que celle-ci est désactivée (ce qui arrive lorsque l'on est connecté par filaire - ethernet).
