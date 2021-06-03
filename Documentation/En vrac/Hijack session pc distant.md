@@ -10,9 +10,9 @@ Utile ici pour récupérer le nom de destination et l'ID de session à hijacker.
 
 # service (sc)
 Cette commande permet de voler (hijacker) la session de n'importe quelle cible, sans mot de passe (password bypassing) :  
-* **<process_name>** est le nom du service à créer (nom bidon, aucune importance, faudra juste arrêter le service avec le meme nom ensuite)*  
-* **<user 2_ID>** est l'**ID** (numéro d'identification) de la **session-cible**, celle à hijacker*  
-* **<session_name>** est le nom de **votre** session*  
+* **<process_name>** est le nom du service à créer (nom bidon, aucune importance, faudra juste arrêter le service avec le meme nom ensuite)  
+* **<user 2_ID>** est l'**ID** (numéro d'identification) de la **session-cible**, celle à hijacker  
+* **<session_name>** est le nom de **votre** session  
 ```
 sc create <process_name> binpath= "cmd.exe /k tscon <user 2_ID> /dest:<session_name>"
 ```
@@ -23,9 +23,9 @@ Commande query user à lancer dans un terminal (cmd, powershell...) :
 
 Exécuter ensuite la commande du paragraphe "service" ainsi que celle pour démarrer le service, exemple ici :  
 *Nous sommes dans cet exemple Titi, et souhaitons voler la session de Toto*  
-* **<process_name> = hijack** (nom du service - le nom n'a pas d'importance)*  
-* **<user 2_ID> = 8** (ID de la session-cible)*  
-* **<session_name> = rdp-tcp#1** (nom de notre session actuelle)*
+* **<process_name> = hijack** (nom du service - le nom n'a pas d'importance)  
+* **<user 2_ID> = 8** (ID de la session-cible)  
+* **<session_name> = rdp-tcp#1** (nom de notre session actuelle)
 ```
 sc create hijack binpath= "cmd.exe /k tscon 8 /dest:rdp-tcp#1"
 net start hijack
