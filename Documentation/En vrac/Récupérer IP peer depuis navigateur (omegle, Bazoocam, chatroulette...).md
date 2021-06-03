@@ -27,7 +27,7 @@ A chaque fois que vous serez connecté à un peer, son IP sera loggé dans cette
 
 ## Tracer son IP pour connaître sa ville actuelle exacte
 
-En amont, vous devez aler sur *ipinfo.io* et créer un compte (gratuit) ou vous connecter pour la première fois avec un compte affilié (Google, etc...).  
+En amont, vous devez aller sur *ipinfo.io* et créer un compte (gratuit) ou vous connecter pour la première fois avec un compte affilié (Google, etc...).  
 Ceci fait, vous devez valider votre compte (mail de validation).  
 Ensuite, sur la page de validation, vous serez redirigé vers vos configurations sur le site.  
 Vous devez copier et garder dans un coin la commande donnée (exemple) :
