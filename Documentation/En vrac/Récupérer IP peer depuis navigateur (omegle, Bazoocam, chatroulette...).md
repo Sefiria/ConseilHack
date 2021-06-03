@@ -40,7 +40,7 @@ Préparez aussi un terminal (cmd, powershell...) à côté.
 1. Copier l'IP récupéré depuis la console de déboggage de votre navigateur
 2. Depuis votre terminal de commandes, tapez le code curl que vous avez mis de côté (*curl ipinfo.io/92.168.92.8\?token=36g8ve7r4vg68r* **attention ceci est un exemple bidon**) en remplaçant <IP> par l'IP que vous avez copié  
 
-Félicitations ! Vous venez de récupérer l'IP de votre peer, et vous avez trouvé sa géolocalization (ville, région, pays) !  
+Félicitations ! Vous venez de récupérer l'IP de votre peer, et vous avez trouvé sa géolocalisation (ville, région, pays) !  
 Comprenez que vous n'êtes jamais vraiment anonyme sur internet.  
 Restez vigilants.  
 
@@ -49,5 +49,5 @@ Restez vigilants.
 Le cas du VPN actif ne vous anonymise pas pour autant.  
 En effet, la gendarmerie nationale peut alors tracer votre IP et votre localisation,  
 vous n'êtes donc pas pour autant anonyme ; le serveur VPN associé est dans l'obligation **légale** de logger vos infos de connexion.  
-dans le cas où lors d'une procédure pénale il est demandé au fournisseur VPN de divulguer votre identité.  
-(Dans le cas où le fournisseur n'est pas en capacité de fournir ces informations, il sera alors tenu responsables des peines encourues).
+dans le cas où d'une procédure pénale il sera demandé au fournisseur VPN de divulguer votre identité.  
+(Dans le cas où le fournisseur n'est pas en mesure de fournir ces informations, il sera alors tenu responsables des peines encourues).
