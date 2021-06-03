@@ -49,5 +49,5 @@ Restez vigilants.
 Le cas du VPN actif ne vous anonymise pas pour autant.  
 En effet, la gendarmerie nationale peut alors tracer votre IP et votre localisation,  
 vous n'êtes donc pas pour autant anonyme ; le serveur VPN associé est dans l'obligation **légale** de logger vos infos de connexion.  
-dans le cas où d'une procédure pénale il sera demandé au fournisseur VPN de divulguer votre identité.  
+dans le cas d'une procédure pénale il sera demandé au fournisseur VPN de divulguer votre identité.  
 (Dans le cas où le fournisseur n'est pas en mesure de fournir ces informations, il sera alors tenu responsables des peines encourues).
