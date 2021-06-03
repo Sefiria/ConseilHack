@@ -19,7 +19,7 @@ sc create <process_name> binpath= "cmd.exe /k tscon <user 2_ID> /dest:<session_n
 
 # Exemple
 commande query user à lancer dans un terminal (cmd, powershell...) :
-![query user](\res\Hijack session pc distant annexe.png)
+![query user](Documentation/En vrac/res/Hijack session pc distant annexe.png)
 
 Exécuter ensuite la commande du paragraphe "service" ainsi que celle pour démarrer le service, exemple ici :
 *Nous sommes dans cet exemple Titi, et souhaitons voler la session de Toto
