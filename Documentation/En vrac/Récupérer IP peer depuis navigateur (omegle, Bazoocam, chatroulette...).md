@@ -31,7 +31,7 @@ En amont, vous devez aller sur *ipinfo.io* et créer un compte (gratuit) ou vous
 Ceci fait, vous devez valider votre compte (mail de validation).  
 Ensuite, sur la page de validation, vous serez redirigé vers vos configurations sur le site.  
 Vous devez copier et garder dans un coin la commande donnée (exemple) :  
-*A la place de **<IP>** vous verrez **votre IP**, à la place de **<TOKEN>** vous verrez **votre token** (code d'accès unique au site)*
+*A la place de **< IP >** vous verrez **votre IP**, à la place de **< TOKEN >** vous verrez **votre token** (code d'accès unique au site)*
 ```
 curl ipinfo.io/<IP>\?token=<TOKEN>
 ```
